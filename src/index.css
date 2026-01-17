@@ -1,0 +1,12 @@
+@import "tailwindcss";
+@import "flowbite/src/themes/default";
+@plugin "flowbite/plugin";
+
+
+@theme {
+  --font-cairo: "Cairo Variable", sans-serif;
+}
+
+.active{
+  color: cornflowerblue;
+}
